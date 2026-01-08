@@ -1,48 +1,49 @@
+<body>
 
   <h1>AwsPlusDocker 🚀</h1>
 
   <p>
-    Projeto de demonstração que integra <strong>AWS + Docker</strong> utilizando
-    aplicações <strong>Spring Boot</strong> (backend) e <strong>React</strong> (frontend),
-    orquestradas com <strong>Docker Compose</strong>.
+    Demonstration project integrating <strong>AWS + Docker</strong> using
+    <strong>Spring Boot</strong> (backend) and <strong>React</strong> (frontend),
+    orchestrated with <strong>Docker Compose</strong>.
   </p>
 
-  <h2>📌 Visão Geral</h2>
+  <h2>📌 Overview</h2>
   <p>
-    Este repositório tem como objetivo demonstrar uma arquitetura moderna onde
-    backend e frontend são totalmente containerizados, facilitando o
-    desenvolvimento local e preparando a aplicação para deploy em ambientes
-    cloud, especialmente na AWS.
+    This repository demonstrates a modern architecture where backend and
+    frontend applications are fully containerized, enabling smooth local
+    development and preparing the project for cloud deployment, especially
+    on AWS.
   </p>
 
   <ul>
-    <li>Backend em Spring Boot containerizado</li>
-    <li>Frontend em React containerizado</li>
-    <li>Orquestração com Docker Compose</li>
-    <li>Base preparada para integração com serviços AWS</li>
+    <li>Containerized Spring Boot backend</li>
+    <li>Containerized React frontend</li>
+    <li>Service orchestration with Docker Compose</li>
+    <li>Ready for AWS integration</li>
   </ul>
 
-  <h2>📁 Estrutura do Projeto</h2>
+  <h2>📁 Project Structure</h2>
 
   <pre>
 AwsPlusDocker/
-├── todoo_Spring/        # Backend Spring Boot
-├── to_do_react/         # Frontend React
-├── docker-compose.yml  # Orquestração dos serviços
-└── README.html         # Documentação do projeto
+├── todoo_Spring/        # Spring Boot backend
+├── to_do_react/         # React frontend
+├── docker-compose.yml  # Service orchestration
+└── README.html         # Project documentation
   </pre>
 
-  <h2>⚙️ Pré-requisitos</h2>
+  <h2>⚙️ Prerequisites</h2>
   <ul>
     <li>Docker</li>
     <li>Docker Compose</li>
-    <li>(Opcional) AWS CLI configurado</li>
+    <li>(Optional) AWS CLI configured</li>
   </ul>
 
-  <h2>🚀 Como Executar o Projeto</h2>
+  <h2>🚀 Running the Project</h2>
 
   <ol>
-    <li>Clone o repositório:</li>
+    <li>Clone the repository:</li>
   </ol>
 
   <pre>
@@ -51,61 +52,60 @@ cd AwsPlusDocker
   </pre>
 
   <ol start="2">
-    <li>Suba os containers:</li>
+    <li>Start the containers:</li>
   </ol>
 
   <pre>
 docker-compose up --build
   </pre>
 
-  <h3>🌐 Acessos</h3>
+  <h3>🌐 Access URLs</h3>
   <ul>
-    <li>Frontend React: <code>http://localhost:3000</code></li>
-    <li>Backend Spring Boot: <code>http://localhost:8080</code></li>
+    <li>React Frontend: <code>http://localhost:3000</code></li>
+    <li>Spring Boot API: <code>http://localhost:8080</code></li>
   </ul>
 
   <h2>🧩 Backend – Spring Boot</h2>
   <p>
-    O backend fornece uma API REST para gerenciamento de tarefas (To-Do),
-    estruturada para escalar e ser facilmente integrada a serviços da AWS,
-    como bancos de dados gerenciados ou containers em ECS/Fargate.
+    The backend provides a REST API for task management (To-Do),
+    designed to be scalable and easily integrated with AWS services such as
+    managed databases or container services like ECS and Fargate.
   </p>
 
   <h2>🎨 Frontend – React</h2>
   <p>
-    Aplicação React responsável pela interface do usuário, consumindo a API
-    do backend e preparada para builds otimizados em ambiente Docker.
+    The React application handles the user interface, consuming the backend API
+    and supporting optimized production builds using Docker.
   </p>
 
   <h2>☁️ Docker & AWS</h2>
   <p>
-    Este projeto pode ser utilizado como base para:
+    This project can be used as a foundation for:
   </p>
   <ul>
-    <li>Publicação de imagens no Amazon ECR</li>
-    <li>Execução de containers no Amazon ECS ou Fargate</li>
-    <li>Criação de pipelines CI/CD</li>
-    <li>Deploy escalável em nuvem</li>
+    <li>Publishing Docker images to Amazon ECR</li>
+    <li>Running containers on Amazon ECS or Fargate</li>
+    <li>Building CI/CD pipelines</li>
+    <li>Scalable cloud deployments</li>
   </ul>
 
-  <h2>🛠 Tecnologias Utilizadas</h2>
+  <h2>🛠 Technologies Used</h2>
   <ul>
     <li>Java / Spring Boot</li>
     <li>React</li>
     <li>Docker</li>
     <li>Docker Compose</li>
-    <li>AWS (ECR, ECS – futuro)</li>
+    <li>AWS (ECR, ECS – future integration)</li>
   </ul>
 
-  <h2>📄 Licença</h2>
+  <h2>📄 License</h2>
   <p>
-    Este projeto pode ser utilizado livremente para fins educacionais e
-    profissionais.
+    This project is free to use for educational and professional purposes.
   </p>
 
-  <h2>🤝 Contribuições</h2>
+  <h2>🤝 Contributions</h2>
   <p>
-    Contribuições são bem-vindas! Fique à vontade para abrir issues ou pull requests.
+    Contributions are welcome! Feel free to open issues or submit pull requests.
   </p>
 
 </body>
