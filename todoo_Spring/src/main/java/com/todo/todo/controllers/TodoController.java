@@ -18,7 +18,7 @@ import java.util.stream.Collectors;
 @RestController
 
 @RequestMapping("/tasks")
-@CrossOrigin(origins = {"http://localhost:3000", "http://localhost:5173"}, allowCredentials = "true")
+@CrossOrigin(origins = {"http://localhost:3000", "http://localhost:5173","http://18.117.114.126:5173"}, allowCredentials = "true")
 public class TodoController {
 
     @Autowired
